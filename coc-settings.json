@@ -1,0 +1,18 @@
+{ "languageserver": {
+   "haskell": {
+     "command": "haskell-language-server-wrapper",
+     "args": ["--lsp", "-l", "hls.log"],
+     "rootPatterns": ["*.cabal", "cabal.project", "package.yaml", "hie.yaml"],
+     "filetypes": ["haskell", "hs"],
+     "trace.server": "verbose",
+     "initializationOptions": {
+       "languageServerHaskell": {
+         "maxCompletions": 10
+       }
+     }
+   }
+ },
+ "codeLens.enable": true,
+ "diagnostic.checkCurrentLine": true,
+ "suggest.noselect": true
+}
