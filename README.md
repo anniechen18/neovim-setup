@@ -3,6 +3,8 @@ Hello! This guide is mainly for *new* vim users. If you are already familiar wit
 
 For all the new vim users, I first want to give a disclaimer that while vim/neovim is powerful to use and loved by many, it may be overwhelming and initimidating to begin with. But let us not fear! We are on our way to having a new tool in our toolbox and that is very exciting.
 
+I would not recommend simply copying the config files I have in this repo. While that may save you time, I found it harder to learn when I used other's config files because I had no idea what their mappings were, which plugins did what, and such. It was a much easier learning experience if you build your own config step by step, and you can even customize it to the way you want.
+
 This guide goes through how to set up neovim, with last section tailoring towards Haskell programming because I will mainly be programming in Haskell. Let's go!
 
 ## Set up NeoVim
